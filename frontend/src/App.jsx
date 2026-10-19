@@ -153,32 +153,6 @@ export default function App() {
         />
       )}
 
-      <nav className={styles.bottomNav} aria-label="Navegação">
-        <button type="button" className={styles.navActive} aria-label="Tasks">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
-            <path d="M4 10.5 12 4l8 6.5V20H4z" />
-          </svg>
-        </button>
-        <button type="button" aria-label="Calendário" tabIndex={-1}>
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
-            <rect x="4" y="5" width="16" height="15" rx="2" />
-            <path d="M4 10h16M8 3v4M16 3v4" />
-          </svg>
-        </button>
-        <button type="button" aria-label="Notificações" tabIndex={-1}>
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
-            <path d="M6 16V11a6 6 0 1 1 12 0v5l1.5 2h-15L6 16z" />
-            <path d="M10 20a2 2 0 0 0 4 0" />
-          </svg>
-        </button>
-        <button type="button" aria-label="Perfil" tabIndex={-1}>
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
-            <circle cx="12" cy="8" r="3.2" />
-            <path d="M5 19c1.5-3 4-4.5 7-4.5S17.5 16 19 19" />
-          </svg>
-        </button>
-      </nav>
-
       <FloatingButton onClick={openCreate} />
 
       <Sidebar

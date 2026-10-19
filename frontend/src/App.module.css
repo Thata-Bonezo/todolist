@@ -1,7 +1,7 @@
 .shell {
   width: min(100%, 960px);
   margin: 0 auto;
-  padding: 22px 18px 120px;
+  padding: 22px 18px 96px;
 }
 
 .header {
@@ -89,32 +89,3 @@
   white-space: nowrap;
 }
 
-.bottomNav {
-  position: fixed;
-  left: 50%;
-  bottom: 16px;
-  transform: translateX(-50%);
-  width: min(calc(100% - 28px), 420px);
-  height: 64px;
-  background: #fff;
-  border-radius: 22px;
-  box-shadow: 0 12px 30px rgba(30, 20, 60, 0.12);
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  z-index: 15;
-}
-
-.bottomNav button {
-  border: 0;
-  background: transparent;
-  color: #b0b3bb;
-  width: 44px;
-  height: 44px;
-  display: grid;
-  place-items: center;
-}
-
-.navActive {
-  color: var(--text) !important;
-}
