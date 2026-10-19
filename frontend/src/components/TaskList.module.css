@@ -1,0 +1,17 @@
+.list {
+  list-style: none;
+  display: grid;
+  gap: 14px;
+}
+
+.loading {
+  text-align: center;
+  color: var(--muted);
+  padding: 40px 12px;
+}
+
+@media (min-width: 760px) {
+  .list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
