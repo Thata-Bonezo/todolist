@@ -1,0 +1,25 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  padding: 48px 16px;
+  text-align: center;
+}
+
+.art {
+  width: 108px;
+  height: 108px;
+  border-radius: 28px;
+  background: var(--surface);
+  display: grid;
+  place-items: center;
+  box-shadow: var(--shadow);
+}
+
+.text {
+  color: var(--muted);
+  font-size: 0.98rem;
+  font-weight: 500;
+}
